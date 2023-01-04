@@ -18,6 +18,10 @@
     # not these though
     stateVersion = "22.11";
   in {
+    packages = genSystems (system: rec {
+      portfolio = pkgs.${system}.callPackage ./. {};
+      default = portfolio;
+    });
     devShell = genSystems (system:
       pkgs.${system}.mkShell {
         packages = with pkgs.${system}; [
