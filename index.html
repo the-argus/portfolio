@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ian mcfarlane - portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+  </head>
+
+  <body>
+    <div id="preheader">
+      <!-- <img src="media/lake.png" alt="" id="background"> -->
+      <span>
+        ian mcfarlane
+        <span id="sub"> <br />portfolio </span>
+        <br />
+        <img src="media/downarrow.svg" alt="" id="arrow" />
+      </span>
+    </div>
+    <div id="gridcontainer">
+      <header>
+        <h2>
+          <span class="darkbg">RIT student</span>
+          <span id="altcolor"><br />linux sysadmin</span>
+          <span id="altcolor2"><br />game developer</span>
+        </h2>
+      </header>
+      <ul id="sortbar" class="darkbg">
+        <li>Sort by:</li>
+
+        <li>
+          <ul class="submenu">
+            <li>chronological</li>
+            <li>most impressive</li>
+          </ul>
+        </li>
+      </ul>
+      <!-- htmls header/main tags are enough semantic meaning for this page -->
+      <!-- (its three blocks of content stacked on top of each other) -->
+      <div id="entries" class="darkbg">
+        <main>
+          <div class="flexbox">
+            <h3>NixOS</h3>
+            <img src="media/nixos.png" alt="NixOS user interface" />
+            <span>
+              Wrote stylesheets and build scripts to create a UNIX based desktop
+              environment, with everything styled and integrated from a Spotify
+              client to the command line prompt.
+              <a href="https://github.com/the-argus/nixsys">Read the code.</a>
+            </span>
+          </div>
+          <div class="flexbox">
+            <h3>Rise and Strike</h3>
+            <img
+              src="media/riseandstrike.png"
+              alt="An 8-bit retro fighting game"
+            />
+            <span>
+              Created a fighting game in Gamemaker Studio 2, then playtested it,
+              then polished it. Screenshake, camera zoom, and particles galore.
+              <a href="https://www.youtube.com/watch?v=OTSm4JOCcm0"
+                >Watch it in action.</a
+              >
+            </span>
+          </div>
+          <div class="flexbox">
+            <h3>Insectoid Descent</h3>
+            <img
+              src="media/insectoid_descent.jpg"
+              alt="A dimly lit top-down shooter game"
+            />
+            <span>
+              Created pixel art animations, wrote dialogue, designed fonts, and
+              wrote design docs for <em>Insectoid Descent, </em>a top-down
+              shooter with haunting ambience and thrilling gamefeel.
+              <a
+                href="https://store.steampowered.com/app/1975350/Insectoid_Descent/"
+                >Watch the trailer.</a
+              >
+            </span>
+          </div>
+          <div class="flexbox">
+            <h3>3D Renderer</h3>
+            <img
+              src="media/rendered.png"
+              alt="A computer generated cube lit by a white light."
+            />
+            <span>
+              Wrote the
+              <a href="https://learnopengl.com">learnopengl.com</a> project from
+              memory. A from-scratch 3D renderer written in C++.
+              <a href="https://github.com/the-argus/gl/tree/lighting"
+                >Read the code.</a
+              >
+            </span>
+          </div>
+        </main>
+      </div>
+      <!-- not using <footer> here because the image at the bottom contains  -->
+      <!-- no text. don't want screen readers reading an empty footer -->
+      <div id="footerimage">
+        <!-- putting img inside of div instead of using display: block -->
+        <!-- so its explicitly a block as per the html -->
+        <img
+          src="media/riseandstrike.png"
+          alt="The first game I ever made that got to the playtesting phase: Rise and Strike"
+        />
+      </div>
+    </div>
+  </body>
+</html>

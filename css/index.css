@@ -1,0 +1,194 @@
+@import url("./base.css");
+/* HEADER IMAGE AND TITLE --------------------------------*/
+#preheader {
+  background-image: url("../media/lake.png");
+  position: relative;
+  /* margin-bottom: 8rem; */
+  font-family: "Fira Mono";
+  color: #3b4252;
+  z-index: -1;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+#preheader span {
+  font-size: 250%;
+  /* position: absolute; */
+  /* top: 0%; */
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  text-align: center;
+}
+#preheader span#sub {
+  position: relative;
+  left: 0.4rem;
+  text-align: center;
+  font-size: 80%;
+}
+
+#preheader #background {
+  margin-top: -10rem;
+}
+
+#arrow {
+  /* position: absolute; */
+  width: 10%;
+  position: relative;
+  top: 25rem;
+  /* left: 40%; */
+}
+
+/* GRID AREAS---------------------------------------------*/
+#gridcontainer {
+  display: grid;
+  grid-template-columns: auto 16%;
+  grid-template-rows: 30% 10% auto 10%;
+  grid-template-areas:
+    "title title"
+    "entries sidebar"
+    /* "sortbar sidebar" */
+    "entries sidebar"
+    "footer footer";
+  position: relative;
+  top: -20rem;
+}
+header {
+  grid-area: title;
+}
+/* #sortbar { */
+/*   grid-area: sortbar; */
+/* } */
+#entries {
+  grid-area: entries;
+  overflow: hidden;
+}
+#sidebar {
+  grid-area: sidebar;
+}
+
+#footerimage {
+  grid-area: footer;
+  display: none;
+}
+
+/* HEADER STYLING ----------------------------------------*/
+header {
+  font-size: 300%;
+  font-family: "Fira Mono";
+}
+header span {
+  color: #88c0d0;
+}
+header h2 #altcolor2 {
+  color: #8fbcbb;
+}
+
+/* SORTBAR STYLING ---------------------------------------*/
+#sortbar {
+  font-family: "Fira Mono", monospace;
+  background-color: #444444;
+  padding: 1rem;
+  list-style: none;
+  margin: 0 1rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  display: none; /* This doesn't work, needs javascript*/
+}
+
+#sortbar .submenu li {
+  display: none;
+}
+#sortbar .submenu li:first-child {
+  display: block;
+}
+#sortbar .submenu li:hover {
+  display: block;
+}
+
+/* ENTRIES STYLING ------------------------------- */
+
+#entries {
+  padding-right: 1rem;
+}
+#entries img {
+  display: block;
+  max-width: 60%;
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  padding-bottom: 100px; /* this is particularly jank,
+  need to come up with an alternative solution for 
+  responsiveness */
+}
+
+#entries h3 {
+  font-size: 240%;
+  display: block;
+}
+
+#entries span {
+  font-family: "Fira Mono";
+  margin-left: 1em;
+  font-size: 130%;
+  display: block;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  flex-direction: row;
+  align-items: flex-start;
+  /* justify-content: space-between; */
+}
+
+main .flexbox {
+  width: 40%;
+  margin: 1rem auto;
+  display: block;
+  padding: 1rem;
+  background: #2e3440;
+}
+
+main .flexbox h3 {
+  margin-top: 0em;
+  margin-bottom: 0.2em;
+}
+
+header,
+#gridcontainer,
+#sidebar,
+#preheader h1 #entries {
+  margin: 0 1rem;
+}
+
+#sidebar {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: -1em 2rem 0 1rem;
+}
+#sidebar .flexitem {
+  position: relative;
+}
+#sidebar .flexitem img {
+  z-index: -1;
+  scale: 2;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-left: -0.8rem;
+}
+#sidebar .flexitem p {
+  font-size: 130%;
+  font-family: "Fira Mono";
+  position: absolute;
+  z-index: 1;
+  top: 0.8em;
+  margin-top: 0px;
+  height: 80%;
+  text-overflow: ellipsis;
+  overflow: scroll;
+}
