@@ -3,20 +3,18 @@
 /* UNIVERSAL STYLES -------------------------------------*/
 body {
   font-family: sans-serif;
-  background-color: #3b4252; /* Originally #333333 */
+  background-color: #3b4252;
+  color: #eceff4;
   margin: 0 auto;
   max-width: 1920px;
-  /* margin: 50px auto; */
-  /* width:40% */
 }
+
+/* Util classes */
 .dropcap::first-letter {
   font-size: 400%;
   float: left; /* floating makes other text wrap */
   line-height: 0.85;
   margin: 0.1em 0.1em 0 0;
-}
-img {
-  max-width: 100%;
 }
 .flexbox {
   display: flex;
