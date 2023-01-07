@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
 
   buildPhase = ''
     for file in $src/*; do
-      ${minify}/bin/minify --sync --recursive --verbose --match ".\.(html|css|js|json)" --output . $file
+      ${minify}/bin/minify --sync --recursive --verbose --match ".\.(html|css|js|json|svg)" --output . $file
     done
   '';
 
