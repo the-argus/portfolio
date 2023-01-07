@@ -2,20 +2,31 @@
   stdenv,
   nodePackages,
   coreutils-full,
+  minify,
   ...
 }:
 stdenv.mkDerivation rec {
   name = "ian-mcfarlane-portfolio";
   src = ./.;
   buildInputs = [nodePackages.live-server];
-  installPhase = ''
-    mkdir -p $out/share/portfolio/
-    mkdir -p $out/bin
 
+  dontUnpack = true;
+
+  buildPhase = ''
+    for file in $src/*; do
+      ${minify}/bin/minify --sync --recursive --verbose --match ".\.(html|css|js|json)" --output . $file
+    done
+  '';
+
+  installPhase = ''
     # stuff i dont need
+    ls -al
     rm *.nix
     rm LICENSE
     rm README.md
+
+    mkdir -p $out/share/portfolio/
+    mkdir -p $out/bin
 
     # move data to $out
     mv * $out/share/portfolio/
