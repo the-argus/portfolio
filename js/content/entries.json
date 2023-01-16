@@ -1,19 +1,12 @@
 [
   {
-    "name": "NixOS Configuration",
-    "preview": {
-      "src": "media/nixos.png",
-      "alt": "NixOS user interface"
-    },
-    "description": "Wrote stylesheets and build scripts to create a UNIX based desktop environment, with everything styled and integrated from a Spotify client to the command line prompt. <a href=\"https://github.com/the-argus/nixsys\">Read the code.</a>"
-  },
-  {
     "name": "Rise and Strike",
     "preview": {
       "src": "media/riseandstrike.png",
       "alt": "An 8-bit retro fighting game"
     },
-    "description": "Created a fighting game in Gamemaker Studio 2, then playtested it, then polished it. Screenshake, camera zoom, and particles galore. <a href=\"https://www.youtube.com/watch?v=OTSm4JOCcm0\">Watch it in action.</a>"
+    "description": "Created a fighting game in Gamemaker Studio 2, then playtested it, then polished it. Screenshake, camera zoom, and particles galore.",
+    "link": "<a href=\"https://www.youtube.com/watch?v=OTSm4JOCcm0\">Watch it in action.</a>"
   },
   {
     "name": "NixOS Configuration",
@@ -21,7 +14,8 @@
       "src": "media/nixos.png",
       "alt": "NixOS user interface"
     },
-    "description": "Wrote stylesheets and build scripts to create a UNIX based desktop environment, with everything styled and integrated from a Spotify client to the command line prompt. <a href=\"https://github.com/the-argus/nixsys\">Read the code.</a>"
+    "description": "Wrote stylesheets and build scripts to create a UNIX based desktop environment, with everything styled and integrated from a Spotify client to the command line prompt.",
+    "link": "<a href=\"https://github.com/the-argus/nixsys\">Read the code.</a>"
   },
   {
     "name": "Insectoid Descent",
@@ -29,7 +23,8 @@
       "src": "media/insectoid_descent.jpg",
       "alt": "A dimly lit top-down shooter game"
     },
-    "description": "Created pixel art animations, wrote dialogue, designed fonts, and wrote design docs for <em>Insectoid Descent, </em>a top-down shooter with haunting ambience and thrilling gamefeel.<a href=\"https://store.steampowered.com/app/1975350/Insectoid_Descent/\">Watch the trailer.</a>"
+    "description": "Created pixel art animations, wrote dialogue, designed fonts, and wrote design docs for <em>Insectoid Descent, </em>a top-down shooter with haunting ambience and thrilling gamefeel.",
+    "link": "<a href=\"https://store.steampowered.com/app/1975350/Insectoid_Descent/\">Watch the trailer.</a>"
   },
   {
     "name": "Insectoid Descent",
@@ -37,6 +32,7 @@
       "src": "media/rendered.png",
       "alt": "A computer generated cube lit by a white light."
     },
-    "description": "Wrote the <a href=\"https://learnopengl.com\">learnopengl.com</a> project from memory. A from-scratch 3D renderer written in C++. <a href=\"https://github.com/the-argus/gl/tree/lighting\">Read the code.</a>"
+    "description": "Wrote the <a href=\"https://learnopengl.com\">learnopengl.com</a> project from memory. A from-scratch 3D renderer written in C++.",
+    "link": "<a href=\"https://github.com/the-argus/gl/tree/lighting\">Read the code.</a>"
   }
 ]

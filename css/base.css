@@ -19,3 +19,16 @@ body {
 .flexbox {
   display: flex;
 }
+
+a {
+  color: #88C0D0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ECEFF4;
+}
+
+a:active {
+  color: #EBCB8B;
+}
