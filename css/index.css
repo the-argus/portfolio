@@ -1,7 +1,11 @@
 @import url("./base.css");
 
+#entries {
+  flex-wrap: wrap;
+}
+
 .entry {
-  max-width: 50vw;
+  max-width: 45vw;
   padding: .2rem 1rem;
   background-color: #2E3440;
   margin: 1rem;
