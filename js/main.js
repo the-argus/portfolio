@@ -12,6 +12,8 @@ const addEntries = async () => {
   // convert to html elements
   for (const entry of entries) {
     // create all the elements needed
+    const topContainer = document.createElement('div')
+    const bottomContainer = document.createElement('div')
     const entryElement = document.createElement('div')
     const titleElement = document.createElement('h3')
     const imageElement = document.createElement('img')
@@ -34,33 +36,26 @@ const addEntries = async () => {
     const firstWordContainerElement = document.createElement('strong')
     const firstWord = entry.description.match(getFirstWord)[0]
     firstWordContainerElement.appendChild(document.createTextNode(firstWord))
-    const descriptionPastFirstWord = document.createTextNode(entry.description.replace(firstWord, ''))
-    descriptionElement.appendChild(firstWordContainerElement)
-    descriptionElement.appendChild(descriptionPastFirstWord)
+
+    const markdownParser = new commonmark.Parser()
+    const markdownRenderer = new commonmark.HtmlRenderer({ safe: true })
+    descriptionElement.innerHTML = markdownRenderer.render(
+      markdownParser.parse(
+        entry.description.replace(firstWord, `**${firstWord}**`)
+      )
+    )
 
     // add sub-elements to the parent div
-    entryElement.appendChild(titleElement)
-    entryElement.appendChild(imageElement)
-    entryElement.appendChild(descriptionElement)
-    entryElement.appendChild(linkElement)
+    topContainer.appendChild(titleElement)
+    topContainer.appendChild(imageElement)
+    bottomContainer.appendChild(descriptionElement)
+    bottomContainer.appendChild(linkElement)
+    entryElement.appendChild(topContainer)
+    entryElement.appendChild(bottomContainer)
 
     // add to the list of entries
     entriesElement.appendChild(entryElement)
   }
-}
-
-function makeTextNodeFromText (text) {
-  const getLinks = /<a href="([^"]*)">([^<]*)<\/a>/g
-  const links = text.match(getLinks)
-  let modifiedText = text
-  // remove all links
-  for (let i = 0; i < links.length; i += 3) {
-    modifiedText = modifiedText.replace(links[i], '__REPLACEME__')
-  }
-  // split between links
-  const textSections = modifiedText.split('__REPLACEME__')
-
-  // construct the final text by applying each link as a node
 }
 
 window.onload = () => {
