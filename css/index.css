@@ -5,10 +5,14 @@
 }
 
 .entry {
-  max-width: 45vw;
+  max-width: calc(45vw - 2rem);
   padding: .2rem 1rem;
   background-color: #2E3440;
   margin: 1rem;
+  /* align description and button to botton */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .entry * {
@@ -25,19 +29,19 @@
   text-transform: uppercase;
 }
 
-.entry a {
+.entry a.button {
   text-transform: lowercase;
   letter-spacing: 3px;
   text-align: center;
 }
 
-.entry a div {
+.entry a.button div {
   padding: 1rem;
   background-color: #5a6478;
   margin: 1rem 0rem;
 }
 
-.entry a div:hover {
+.entry a.button div:hover {
   scale: 103%;
   transition-property: scale;
   transition-duration: 0.1s;

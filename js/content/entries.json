@@ -17,7 +17,7 @@
       "src": "media/nixos.png",
       "alt": "NixOS user interface"
     },
-    "description": "Wrote stylesheets and build scripts to create a UNIX based desktop environment, with everything styled and integrated from a Spotify client to the command line prompt.",
+    "description": "Designed a desktop user interface using build scripts written in <a href=\"https://nixos.org/\">nix</a>. The configurations for all supported programs (which include Spotify, Firefox, multiple terminal emulators, and Discord) inherit properties like color, border-radius, and fonts from a single configuration file.",
     "link": {
       "url": "https://github.com/the-argus/nixsys",
       "text": "Read the code."
@@ -29,7 +29,7 @@
       "src": "media/insectoid_descent.jpg",
       "alt": "A dimly lit top-down shooter game"
     },
-    "description": "Created pixel art animations, wrote dialogue, designed fonts, and wrote design docs for <em>Insectoid Descent, </em>a top-down shooter with haunting ambience and thrilling gamefeel.",
+    "description": "Composed music and pixel art animations, wrote dialogue, designed fonts, and wrote design docs for <em>Insectoid Descent, </em>a top-down shooter with haunting ambience and thrilling gamefeel.",
     "link": {
       "url": "https://store.steampowered.com/app/1975350/Insectoid_Descent/",
       "text": "Watch the trailer."

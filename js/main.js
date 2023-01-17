@@ -27,6 +27,7 @@ const addEntries = async () => {
     linkTextElement.innerHTML = entry.link.text
     linkElement.href = entry.link.url
     linkElement.appendChild(linkTextElement)
+    linkElement.className = 'button'
 
     // bold the first word of the description
     const getFirstWord = /\b\w*\b/di
