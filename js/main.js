@@ -7,10 +7,11 @@ const addEntries = async () => {
     throw new Error('Error fetching content JSON: ' + entriesResponse.status)
   }
 
-  const entries = await entriesResponse.json()
+  const entriesInfo = await entriesResponse.json()
 
   // convert to html elements
-  for (const entry of entries) {
+  for (const entryName in entriesInfo.entries) {
+    const entry = entriesInfo.entries[entryName]
     // create all the elements needed
     const topContainer = document.createElement('div')
     const bottomContainer = document.createElement('div')

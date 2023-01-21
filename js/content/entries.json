@@ -1,50 +1,83 @@
-[
-  {
-    "name": "Rise and Strike",
-    "preview": {
-      "src": "media/riseandstrike.png",
-      "alt": "An 8-bit retro fighting game"
+{
+  "coolness": [
+    "riseandstrike",
+    "abitofchiptune",
+    "insectoiddescent",
+    "nixos",
+    "3drenderer"
+  ],
+  "chronological": [
+    "nixos",
+    "3drenderer",
+    "abitofchiptune",
+    "riseandstrike",
+    "insectoiddescent"
+  ],
+  "entries": {
+    "abitofchiptune": {
+      "tags": ["music"],
+      "name": "A Bit of Chiptune - Collaborative Album",
+      "preview": {
+        "src": "media/damnthatsgood.png",
+        "alt": "a retro synthwave album cover"
+      },
+      "description": "Wrote and produced an electronic song which was published [on spotify](https://open.spotify.com/track/5o9gDy0mGR2FWkxjm07fFv?si=cc1a6351e2784b3e) and on [bandcamp](https://abitofchiptune.bandcamp.com/track/something-you-can-eat).",
+      "link": {
+        "url": "https://abitofchiptune.bandcamp.com/track/something-you-can-eat",
+        "text": "listen on bandcamp"
+      }
     },
-    "description": "Created a fighting game in Gamemaker Studio 2, then playtested it, then polished it. Screenshake, camera zoom, and particles galore.",
-    "link": {
-      "url": "https://www.youtube.com/watch?v=OTSm4JOCcm0",
-      "text": "Watch it in action."
-    }
-  },
-  {
-    "name": "NixOS Configuration",
-    "preview": {
-      "src": "media/nixos.png",
-      "alt": "NixOS user interface"
+    "riseandstrike": {
+      "tags": ["game", "programming"],
+      "name": "Rise and Strike",
+      "preview": {
+        "src": "media/riseandstrike.png",
+        "alt": "An 8-bit retro fighting game"
+      },
+      "description": "Created a fighting game in Gamemaker Studio 2, then playtested it, then polished it. Screenshake, camera zoom, and particles galore.",
+      "link": {
+        "url": "https://www.youtube.com/watch?v=OTSm4JOCcm0",
+        "text": "Watch it in action."
+      }
     },
-    "description": "Designed a desktop user interface using build scripts written in [nix](https://nixos.org). The configurations for all supported programs (which include Spotify, Firefox, multiple terminal emulators, and Discord) inherit properties like color, border-radius, and fonts from a single configuration file.",
-    "link": {
-      "url": "https://github.com/the-argus/nixsys",
-      "text": "Read the code."
-    }
-  },
-  {
-    "name": "Insectoid Descent",
-    "preview": {
-      "src": "media/insectoid_descent.jpg",
-      "alt": "A dimly lit top-down shooter game"
+    "nixos": {
+      "tags": ["programming"],
+      "name": "NixOS Configuration",
+      "preview": {
+        "src": "media/nixos.png",
+        "alt": "NixOS user interface"
+      },
+      "description": "Designed a desktop user interface using build scripts written in [nix](https://nixos.org). The configurations for all supported programs (which include Spotify, Firefox, multiple terminal emulators, and Discord) inherit properties like color, border-radius, and fonts from a single configuration file.",
+      "link": {
+        "url": "https://github.com/the-argus/nixsys",
+        "text": "Read the code."
+      }
     },
-    "description": "Composed music and pixel art animations, wrote dialogue, designed fonts, and wrote design docs for *Insectoid Descent,* a top-down shooter with haunting ambience and thrilling gamefeel.",
-    "link": {
-      "url": "https://store.steampowered.com/app/1975350/Insectoid_Descent/",
-      "text": "Watch the trailer."
-    }
-  },
-  {
-    "name": "3D Renderer",
-    "preview": {
-      "src": "media/rendered.png",
-      "alt": "A computer generated cube lit by a white light."
+    "insectoiddescent": {
+      "tags": ["visualart", "design"],
+      "name": "Insectoid Descent",
+      "preview": {
+        "src": "media/insectoid_descent.jpg",
+        "alt": "A dimly lit top-down shooter game"
+      },
+      "description": "Composed music and pixel art animations, wrote dialogue, designed fonts, and wrote design docs for *Insectoid Descent,* a top-down shooter with haunting ambience and thrilling gamefeel.",
+      "link": {
+        "url": "https://store.steampowered.com/app/1975350/Insectoid_Descent/",
+        "text": "Watch the trailer."
+      }
     },
-    "description": "Wrote the [learnopengl.com](https://learnopengl.com) project from memory. A from-scratch 3D renderer written in C++.",
-    "link": {
-      "url": "https://github.com/the-argus/gl/tree/lighting",
-      "text": "Read the code."
+    "3drenderer": {
+      "tags": ["game", "programming"],
+      "name": "3D Renderer",
+      "preview": {
+        "src": "media/rendered.png",
+        "alt": "A computer generated cube lit by a white light."
+      },
+      "description": "Wrote the [learnopengl.com](https://learnopengl.com) project from memory. A from-scratch 3D renderer written in C++.",
+      "link": {
+        "url": "https://github.com/the-argus/gl/tree/lighting",
+        "text": "Read the code."
+      }
     }
   }
-]
+}
