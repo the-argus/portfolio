@@ -14,6 +14,19 @@
     "insectoiddescent"
   ],
   "entries": {
+    "lonesomestranger": {
+      "tags": ["writing"],
+      "name": "Lonesome Stranger - D&D 5e Class",
+      "preview": {
+        "src": "media/lonesomestranger.png",
+        "alt": "the introduction paragraph describing the type of character a lonesome stranger might be"
+      },
+      "description": "Wrote flavor text and designed tabletop RPG game mechanics for use in Dungeons and Dragons 5th Edition. Briefly playtested the class. Find the markdown in the [github repository](https://github.com/the-argus/lonesome-stranger).",
+      "link": {
+        "url": "REPLACEME",
+        "text": "Download the PDF"
+      }
+    },
     "abitofchiptune": {
       "tags": ["music"],
       "name": "A Bit of Chiptune - Collaborative Album",
@@ -21,7 +34,7 @@
         "src": "media/damnthatsgood.png",
         "alt": "a retro synthwave album cover"
       },
-      "description": "Wrote and produced an electronic song which was published [on spotify](https://open.spotify.com/track/5o9gDy0mGR2FWkxjm07fFv?si=cc1a6351e2784b3e) and on [bandcamp](https://abitofchiptune.bandcamp.com/track/something-you-can-eat).",
+      "description": "Composed and produced an electronic song which was published [on spotify](https://open.spotify.com/track/5o9gDy0mGR2FWkxjm07fFv?si=cc1a6351e2784b3e) and on [bandcamp](https://abitofchiptune.bandcamp.com/track/something-you-can-eat).",
       "link": {
         "url": "https://abitofchiptune.bandcamp.com/track/something-you-can-eat",
         "text": "listen on bandcamp"
