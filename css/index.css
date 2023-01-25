@@ -5,7 +5,8 @@
 }
 
 .entry {
-  max-width: calc(45vw - 2rem);
+  /* 694 pixels is the width of the smallest image */
+  max-width: calc(max(694px, 100vw) - 4rem);
   padding: 0.2rem 1rem;
   background-color: #2e3440;
   margin: 1rem;

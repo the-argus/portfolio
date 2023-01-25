@@ -25,7 +25,7 @@
       },
       "description": "Wrote flavor text and designed tabletop RPG game mechanics for use in Dungeons and Dragons 5th Edition. Briefly playtested the class. Find the markdown in the [github repository](https://github.com/the-argus/lonesome-stranger).",
       "link": {
-        "url": "REPLACEME",
+        "url": "https://github.com/the-argus/lonesome-stranger/releases/download/alpha-1/lonesome-stranger.pdf",
         "text": "Download the PDF"
       }
     },
@@ -33,7 +33,7 @@
       "tags": ["music"],
       "name": "A Bit of Chiptune - Collaborative Album",
       "preview": {
-        "src": "media/damnthatsgood.png",
+        "src": "media/damnthatsgood.jpg",
         "alt": "a retro synthwave album cover"
       },
       "description": "Composed and produced an electronic song which was published [on spotify](https://open.spotify.com/track/5o9gDy0mGR2FWkxjm07fFv?si=cc1a6351e2784b3e) and on [bandcamp](https://abitofchiptune.bandcamp.com/track/something-you-can-eat).",
