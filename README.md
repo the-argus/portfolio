@@ -2,6 +2,9 @@
 
 My portfolio. Currently hosted at [https://people.rit.edu/ifm1110/portfolio/](https://people.rit.edu/ifm1110/portfolio/)
 
+Also check out the [Github Pages](https://the-argus.github.io/portfolio/) for a
+more up-to-date but less tested version of the page.
+
 ## Using this site
 
 I've GPL licensed this code. Please feel free to fork and to change ``js/content/entries.json``.
