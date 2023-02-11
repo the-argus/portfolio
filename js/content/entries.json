@@ -2,6 +2,7 @@
   "coolness": [
     "lonesomestranger",
     "riseandstrike",
+    "slorpus",
     "abitofchiptune",
     "insectoiddescent",
     "nixos",
@@ -9,6 +10,7 @@
   ],
   "chronological": [
     "nixos",
+    "slorpus",
     "3drenderer",
     "abitofchiptune",
     "lonesomestranger",
@@ -16,6 +18,19 @@
     "insectoiddescent"
   ],
   "entries": {
+    "slorpus": {
+      "tags": ["programming", "game"],
+      "name": "Slorpus Slaughter VII",
+      "preview": {
+        "src": "https://img.itch.zone/aW1hZ2UvMTYzNTA2OC85NjE3OTA0LnBuZw==/original/V1QkHn.png",
+        "alt": "A square level in a retro, atari-style videogame."
+      },
+      "description": "Worked on a small team and programmed the physics, shaders, autotiling, and camera system for a top-down shooter game in the style of an Atari original.",
+      "link": {
+        "url": "https://teamellipses.itch.io/ssvii",
+        "text": "Play the Game"
+      }
+    },
     "lonesomestranger": {
       "tags": ["writing"],
       "name": "Lonesome Stranger - D&D 5e Class",
