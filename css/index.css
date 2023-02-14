@@ -54,7 +54,18 @@
 
 /* header styles */
 header {
+  color: #1d2028;
   text-align: center;
+  margin: calc(((9/16) * 80vw)/2) auto;
+}
+header h1, header > span {
+  font-family: monospace;
+}
+header h1 {
+  font-size: 30px;
+}
+header > span {
+  font-size: 20px;
 }
 
 @media screen and (orientation: portrait) {
