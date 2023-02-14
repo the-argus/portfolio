@@ -110,19 +110,6 @@
         "url": "https://store.steampowered.com/app/1975350/Insectoid_Descent/",
         "text": "Watch the trailer."
       }
-    },
-    "3drenderer": {
-      "tags": ["game", "programming"],
-      "name": "3D Renderer",
-      "preview": {
-        "src": "media/rendered.png",
-        "alt": "A computer generated cube lit by a white light."
-      },
-      "description": "Wrote the [learnopengl.com](https://learnopengl.com) project from memory. A from-scratch 3D renderer written in C++.",
-      "link": {
-        "url": "https://github.com/the-argus/gl/tree/lighting",
-        "text": "Read the code."
-      }
     }
   }
 }
