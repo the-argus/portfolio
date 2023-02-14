@@ -9,6 +9,10 @@ body {
   max-width: 1920px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Util classes */
 .dropcap::first-letter {
   font-size: 400%;
@@ -57,7 +61,7 @@ a:active {
 }
 #github img {
   display: block;
-  max-width: 2rem;
+  max-width: 24px;
   /* border-radius: 100%; */
 }
 #github span {
@@ -71,5 +75,6 @@ a:active {
 @media screen and (orientation: portrait) {
   #github {
     left: 0px;
+    top: 0px;
   }
 }

@@ -56,7 +56,17 @@
 header {
   color: #1d2028;
   text-align: center;
-  margin: calc(((9/16) * 80vw)/2) auto;
+  margin: calc(((9/16) * 100vw) * 0.4) auto calc(((9/16) * 100vw) * 0.6) auto;
+}
+header > a > img {
+  display: block;
+  margin: 0 auto;
+  width: 6%;
+}
+header > a > img:hover {
+  scale: 1.1;
+  transition-property: scale;
+  transition-duration: 0.1s;
 }
 header h1, header > span {
   font-family: monospace;
@@ -75,5 +85,16 @@ header > span {
     max-width: 100vw;
     margin-left: 0px;
     margin-right: 0px;
+  }
+
+  header {
+    margin-bottom: 1rem;
+    /* the height of github element plus its padding * 2  plus additional padding*/
+    /* TODO: fix this garbage by making the github element float left instead of being absolute */
+    margin-top: calc(24px + (16px * 2) + 1.5rem)
+  }
+
+  header > a > img {
+    display: none;
   }
 }
