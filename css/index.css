@@ -52,6 +52,11 @@
   transition-duration: 0.1s;
 }
 
+/* header styles */
+header {
+  text-align: center;
+}
+
 @media screen and (orientation: portrait) {
   .entry {
     flex: 0;

@@ -32,3 +32,20 @@ a:hover {
 a:active {
   color: #EBCB8B;
 }
+
+#github {
+  background-color: #2e3440;
+  padding: 1rem;
+  width: 300px;
+  margin: 1rem auto 0 auto;
+  text-align: left;
+  /* border-radius: calc(2rem + 100px); */
+}
+#github img {
+  display: block;
+  max-width: 2rem;
+  /* border-radius: 100%; */
+}
+#github span {
+  margin-left: 20px;
+}
