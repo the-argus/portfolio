@@ -12,7 +12,7 @@ const addEntries = async () => {
   const entriesInfo = await entriesResponse.json()
 
   // convert to html elements
-  for (const entryName in entriesInfo.entries) {
+  for (const entryName of entriesInfo.coolness) {
     const entry = entriesInfo.entries[entryName]
     const entryElement = buildEntryHTML(entry)
 
