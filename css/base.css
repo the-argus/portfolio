@@ -34,9 +34,12 @@ a:active {
 }
 
 #github {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   background-color: #2e3440;
   padding: 1rem;
-  width: 300px;
+  width: 9rem;
   margin: 1rem auto 0 auto;
   text-align: left;
   /* border-radius: calc(2rem + 100px); */
@@ -47,5 +50,9 @@ a:active {
   /* border-radius: 100%; */
 }
 #github span {
+  flex: 1;
   margin-left: 20px;
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
 }
