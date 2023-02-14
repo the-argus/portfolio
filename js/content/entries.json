@@ -3,12 +3,14 @@
     "lonesomestranger",
     "riseandstrike",
     "slorpus",
-    "abitofchiptune",
+    "magnetics",
     "insectoiddescent",
     "nixos",
+    "abitofchiptune",
     "3drenderer"
   ],
   "chronological": [
+    "magnetics",
     "nixos",
     "slorpus",
     "3drenderer",
@@ -28,7 +30,7 @@
       "description": "Cooperated with a small team and programmed the physics, shaders, autotiling, and camera system for a top-down shooter game in the style of an Atari original.",
       "link": {
         "url": "https://teamellipses.itch.io/ssvii",
-        "text": "Play the Game"
+        "text": "Play the Game."
       }
     },
     "magnetics": {
@@ -41,7 +43,7 @@
       },
       "link": {
         "url": "https://people.rit.edu/ifm1110/235/git/projects/12_2_22_project3_prototype/",
-        "text": "Play the Game (webGL required)"
+        "text": "Play the Game (webGL required)."
       }
     },
     "lonesomestranger": {
@@ -54,7 +56,7 @@
       "description": "Wrote flavor text and designed tabletop RPG game mechanics for use in Dungeons and Dragons 5th Edition. Briefly playtested the class. Find the markdown in the [github repository](https://github.com/the-argus/lonesome-stranger).",
       "link": {
         "url": "https://github.com/the-argus/lonesome-stranger/releases/download/alpha-1/lonesome-stranger.pdf",
-        "text": "Download the PDF"
+        "text": "Download the PDF."
       }
     },
     "abitofchiptune": {
@@ -64,10 +66,10 @@
         "src": "media/damnthatsgood.jpg",
         "alt": "a retro synthwave album cover"
       },
-      "description": "Composed and produced an electronic song which was published [on spotify](https://open.spotify.com/track/5o9gDy0mGR2FWkxjm07fFv?si=cc1a6351e2784b3e) and on [bandcamp](https://abitofchiptune.bandcamp.com/track/something-you-can-eat).",
+      "description": "Participated in a collaborative album under the name *almost ghost*. Composed and produced an electronic song available [on spotify](https://open.spotify.com/track/5o9gDy0mGR2FWkxjm07fFv?si=cc1a6351e2784b3e) and on [bandcamp](https://abitofchiptune.bandcamp.com/track/something-you-can-eat).",
       "link": {
-        "url": "https://abitofchiptune.bandcamp.com/track/something-you-can-eat",
-        "text": "listen on bandcamp"
+        "url": "https://abitofchiptune.bandcamp.com/album/damn-thats-good",
+        "text": "listen to the album."
       }
     },
     "riseandstrike": {
