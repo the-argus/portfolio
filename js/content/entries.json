@@ -25,10 +25,23 @@
         "src": "https://img.itch.zone/aW1hZ2UvMTYzNTA2OC85NjE3OTA0LnBuZw==/original/V1QkHn.png",
         "alt": "A square level in a retro, atari-style videogame."
       },
-      "description": "Worked on a small team and programmed the physics, shaders, autotiling, and camera system for a top-down shooter game in the style of an Atari original.",
+      "description": "Cooperated with a small team and programmed the physics, shaders, autotiling, and camera system for a top-down shooter game in the style of an Atari original.",
       "link": {
         "url": "https://teamellipses.itch.io/ssvii",
         "text": "Play the Game"
+      }
+    },
+    "magnetics": {
+      "tags": ["programming", "game"],
+      "name": "Magnetics",
+      "description": "Programmed platformer physics from scratch in Javascript. Used them to implement a unique mechanical platformer where you pull your  avatar towards magnets in the level. Design three basic levels around this core mechanic.",
+      "preview": {
+        "src": "media/magnetics.png",
+        "alt": "a simple platformer with VHS filter applied."
+      },
+      "link": {
+        "url": "https://people.rit.edu/ifm1110/235/git/projects/12_2_22_project3_prototype/",
+        "text": "Play the Game (webGL required)"
       }
     },
     "lonesomestranger": {
